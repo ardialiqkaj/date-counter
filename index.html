@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Date Counter</title>
 </head>
 <body>
-    <div class="input">
-        <form>
-            <input type="date">
-            <input type="time">
-        </form>
-        <button type="submit">Calculate</button>
-        <button type="reset">Reset</button>
+    <label for="date">Select a Date:</label>
+    <input type="date" id="date">
+    <button id="calculateBtn">Calculate</button>
+    <div class="countdown-card">
+        <p>Days</p>
+        <div id="days" class="countdown-value">0</div>
     </div>
-    <div class="countdown">
-
+    <div class="countdown-card">
+        <p>Hours</p>
+        <div id="hours" class="countdown-value">0</div>
+    </div>
+    <div class="countdown-card">
+        <p>Minutes</p>
+        <div id="minutes" class="countdown-value">0</div>
+    </div>
+    <div class="countdown-card">
+        <p>Seconds</p>
+        <div id="seconds" class="countdown-value">0</div>
     </div>
 </body>
 </html>
