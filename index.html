@@ -8,24 +8,32 @@
     <title>Date Counter</title>
 </head>
 <body>
-    <label for="date">Select a Date:</label>
-    <input type="date" id="date">
-    <button id="calculateBtn">Calculate</button>
-    <div class="countdown-card">
-        <p>Days</p>
-        <div id="days" class="countdown-value">0</div>
-    </div>
-    <div class="countdown-card">
-        <p>Hours</p>
-        <div id="hours" class="countdown-value">0</div>
-    </div>
-    <div class="countdown-card">
-        <p>Minutes</p>
-        <div id="minutes" class="countdown-value">0</div>
-    </div>
-    <div class="countdown-card">
-        <p>Seconds</p>
-        <div id="seconds" class="countdown-value">0</div>
-    </div>
+    <main>
+        <div class="userinput">
+            <div class="inputlabel">
+                <label for="date">Select a Date:</label>
+                <input type="date" id="date">
+            </div>   
+            <button id="calculateBtn">Calculate</button>
+        </div>
+        <div class="useroutput">
+            <div class="countdown-card">
+                <p>Days</p>
+                <div id="days" class="countdown-value">0</div>
+            </div>
+            <div class="countdown-card">
+                <p>Hours</p>
+                <div id="hours" class="countdown-value">0</div>
+            </div>
+            <div class="countdown-card">
+                <p>Minutes</p>
+                <div id="minutes" class="countdown-value">0</div>
+            </div>
+            <div class="countdown-card">
+                <p>Seconds</p>
+                <div id="seconds" class="countdown-value">0</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

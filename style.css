@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(14, 1, 19);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.userinput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.userinput input {
+    border: none;
+    height: 28px;
+    margin-left: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.userinput button {
+    background-color: lightblue;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.inputlabel {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.useroutput {
+    display: flex;
+}
+
+.countdown-card {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .inputlabel {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .useroutput {
+        flex-direction: column;
+    }
+}
